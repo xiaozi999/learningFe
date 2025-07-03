@@ -1,0 +1,40 @@
+<script>
+    function MyProxy(target, handlers) {
+      const proxy = {}
+      Object.keys(target).forEach(key => {
+        Object.defineProperty(proxy, key, {
+          get() {
+            if (handlers.get) {
+              return handlers.get(target, key, proxy)
+            }
+            return target[key]
+          },
+          
+          set(newValue) {
+            if (handlers.set) {
+              const success = handlers.set(target, key, newValue, proxy)
+              if (success) {
+                target[key] = newValue
+              }
+              return success
+            }
+            target[key] = newValue
+            return true
+          },
+        })
+      })
+      
+      return proxy
+    }
+
+    const MyReflect = {
+      get(target, key, receiver) {
+        return target[key]
+      },
+      set(target, key, value, receiver) {
+        target[key] = value
+        return true
+      }
+    }
+</script>
+   

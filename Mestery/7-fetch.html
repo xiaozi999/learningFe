@@ -1,0 +1,82 @@
+<script>
+  const {createApp ,ref ,watchEffect}=Vue
+
+  function usePost(getId){
+    return useFetch(()=>{
+      `https://api.github.com/users/octocat/${getId}`
+    })
+  }
+
+  function useFetch(getUrl){
+    const data=ref(null)
+    const error=ref(null)
+    const isPending=ref(true)
+
+    watchEffect(()=>{
+      isPending.value=true
+      error.value=null
+      data.value=null
+      fetch(getUrl())
+      .then(res=>res.json())
+      .then(_data=>{
+        data.value=_data
+        isPending.value=false
+      })
+      .catch(err=>{
+        error.value=err
+        isPending.value=false
+      })
+    })
+    return{
+      data,
+      error,
+      isPending
+    }
+  }
+
+
+  const Post={
+    template:`
+      <div>
+        <div v-if="isPending">Loading...</div>
+        <div v-else-if="data">{{data.name}}</div>
+        <div v-else-if="error">{{error}}</div>
+      </div>
+    `,
+    setup(props){
+      const {data,error,isPending}=useFetch(usePost(props.id))
+      return {
+        data,
+        error,
+        isPending
+      }
+    }
+  }
+
+  const App={
+    components:{
+      Post
+    },
+    data(){
+      return{
+        id:1
+      }
+    },
+    template:`
+      <div>
+        <button @click="id++">Next</button>
+        <Post :id="id" />
+      </div>
+    `
+  }
+  createApp(App).mount('#app')
+</script>
+
+<div id="app">
+  <div v-if="isPending">Loading...</div>
+  <div v-else-if="data">
+    <div>{{data.name}}</div>
+    <div>{{data.bio}}</div>
+  </div>
+  <div v-else-if="error">{{error}}</div>
+</div>
