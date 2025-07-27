@@ -1,0 +1,11 @@
+{
+  "files": {
+    "monorepo/rush/packages/ui/.rush/temp/chunked-rush-logs/ui.build.chunks.jsonl": "f005d6357012d5628db472312daf8b6c0e9073cc",
+    "monorepo/rush/packages/ui/.rush/temp/shrinkwrap-deps.json": "ecd836e632e01e23ca53e0940376e6793fbab144",
+    "monorepo/rush/packages/ui/components/Button.vue": "2bac23b034520adbb798fff529ba4e7fe59761c4",
+    "monorepo/rush/packages/ui/components/Card.vue": "2014d9b50fdb401de4f7eab3108325c73fb6609f",
+    "monorepo/rush/packages/ui/index.js": "d65e52778fd11d655e4009e9b9dee1b2642c00cc",
+    "monorepo/rush/packages/ui/package.json": "67bdbfe040ff72e43a05e62999518e0778fea61c"
+  },
+  "arguments": "echo 'UI package build completed' "
+}

@@ -1,0 +1,19 @@
+{
+  "files": {
+    "monorepo/rush/apps/vue-app/.rush/temp/chunked-rush-logs/vue-app.build.chunks.jsonl": "90138aefb2d07d55b30059f1aebd9908e70c4acc",
+    "monorepo/rush/apps/vue-app/.rush/temp/shrinkwrap-deps.json": "d6c7bc6d55d0c9ba424833b8fb78de575243c99a",
+    "monorepo/rush/apps/vue-app/eslint.config.js": "7807d8b33d25d86a60b25349e940aa9ae59c3d2e",
+    "monorepo/rush/apps/vue-app/index.html": "b19040a0e68e0bffcc502662b32b2aa2eb08c055",
+    "monorepo/rush/apps/vue-app/jsconfig.json": "5a1f2d222a302a174e710614c6d76531b7bda926",
+    "monorepo/rush/apps/vue-app/package.json": "af39e7ba08d3e043d7a20280465e3301a8f6b178",
+    "monorepo/rush/apps/vue-app/public/favicon.ico": "df36fcfb72584e00488330b560ebcf34a41c64c2",
+    "monorepo/rush/apps/vue-app/src/App.vue": "7e0ca4f542c1879cd23c5a0f711864eaddbe725c",
+    "monorepo/rush/apps/vue-app/src/assets/base.css": "8816868a41b651f318dee87c6784ebcd6e29eca1",
+    "monorepo/rush/apps/vue-app/src/assets/main.css": "36fb845b5232b8594b0d0f0e61a8cff0b73a4128",
+    "monorepo/rush/apps/vue-app/src/main.js": "5a5dbdba753e43614461908e664c4aea4e7e0bf4",
+    "monorepo/rush/apps/vue-app/src/router/index.js": "29788a17a1582b09e0b0ee6d2ca7e86233a113dd",
+    "monorepo/rush/apps/vue-app/src/views/HomeView.vue": "b3c4d223c0017b29b64d152c8db2ecda12f150d4",
+    "monorepo/rush/apps/vue-app/vite.config.js": "4217010a3178372181948ce34c4d5045dfa18325"
+  },
+  "arguments": "vite build "
+}
