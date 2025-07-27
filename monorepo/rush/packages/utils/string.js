@@ -4,7 +4,7 @@
 
 /**
  * 首字母大写
- * @param {string} str 
+ * @param {string} str
  * @returns {string}
  */
 export function capitalize(str) {
@@ -14,7 +14,7 @@ export function capitalize(str) {
 
 /**
  * 驼峰命名转短横线命名
- * @param {string} str 
+ * @param {string} str
  * @returns {string}
  */
 export function camelToKebab(str) {
@@ -23,7 +23,7 @@ export function camelToKebab(str) {
 
 /**
  * 短横线命名转驼峰命名
- * @param {string} str 
+ * @param {string} str
  * @returns {string}
  */
 export function kebabToCamel(str) {
@@ -32,7 +32,7 @@ export function kebabToCamel(str) {
 
 /**
  * 生成随机字符串
- * @param {number} length 
+ * @param {number} length
  * @returns {string}
  */
 export function randomString(length = 8) {
@@ -42,4 +42,4 @@ export function randomString(length = 8) {
     result += chars.charAt(Math.floor(Math.random() * chars.length))
   }
   return result
-} 
+}

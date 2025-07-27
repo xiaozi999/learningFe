@@ -1,6 +1,7 @@
 {
   "files": {
     "monorepo/rush/packages/ui/.rush/temp/chunked-rush-logs/ui.build.chunks.jsonl": "f005d6357012d5628db472312daf8b6c0e9073cc",
+    "monorepo/rush/packages/ui/.rush/temp/package-deps_build.json": "8b9e720e773c693ad63385d7deef6684a5461009",
     "monorepo/rush/packages/ui/.rush/temp/shrinkwrap-deps.json": "ecd836e632e01e23ca53e0940376e6793fbab144",
     "monorepo/rush/packages/ui/components/Button.vue": "2bac23b034520adbb798fff529ba4e7fe59761c4",
     "monorepo/rush/packages/ui/components/Card.vue": "2014d9b50fdb401de4f7eab3108325c73fb6609f",

@@ -1,0 +1,17 @@
+{
+  "name": "admin-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx vite",
+    "build": "npx vite build",
+    "preview": "npx vite preview",
+    "lint": "npx eslint . --fix",
+    "format": "npx prettier --write ."
+  },
+  "dependencies": {
+    "@monorepo/ui": "workspace:*",
+    "@monorepo/utils": "workspace:*"
+  }
+}

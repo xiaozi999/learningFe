@@ -5,6 +5,7 @@
   "nodeSupportedVersionRange": ">=18.0.0",
   "gitPolicy": {},
   "repository": {},
+  "ensureConsistentVersions": true,
   "eventHooks": {
     "preRushInstall": [],
     "postRushInstall": [],
@@ -19,48 +20,31 @@
       "packageName": "vue-app",
       "projectFolder": "apps/vue-app",
       "reviewCategory": "production",
-      "tags": [
-        "frontend",
-        "vue"
-      ]
+      "tags": ["frontend", "vue"]
     },
     {
       "packageName": "admin-app",
       "projectFolder": "apps/admin-app",
       "reviewCategory": "production",
-      "tags": [
-        "frontend",
-        "admin",
-        "vue"
-      ]
+      "tags": ["frontend", "admin", "vue"]
     },
     {
       "packageName": "@monorepo/ui",
       "projectFolder": "packages/ui",
       "reviewCategory": "production",
-      "tags": [
-        "library",
-        "ui",
-        "vue"
-      ]
+      "tags": ["library", "ui", "vue"]
     },
     {
       "packageName": "@monorepo/utils",
       "projectFolder": "packages/utils",
       "reviewCategory": "production",
-      "tags": [
-        "library",
-        "utils"
-      ]
+      "tags": ["library", "utils"]
     },
     {
       "packageName": "@monorepo/tools",
       "projectFolder": "tools",
       "reviewCategory": "tools",
-      "tags": [
-        "tools",
-        "scripts"
-      ]
+      "tags": ["tools", "scripts"]
     }
   ]
 }

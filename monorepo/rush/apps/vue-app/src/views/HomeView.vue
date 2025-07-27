@@ -10,7 +10,7 @@ const currentDate = formatDate(new Date(), 'YYYY-MM-DD HH:mm:ss')
 const relativeTime = getRelativeTime(Date.now() - 3600000) // 1小时前
 
 // 定义alert函数
-const showAlert = (message) => {
+const showAlert = message => {
   alert(message)
 }
 </script>
@@ -23,9 +23,7 @@ const showAlert = (message) => {
 
       <!-- UI 组件演示 -->
       <Card class="demo-card">
-        <template #header>
-          UI 组件库演示
-        </template>
+        <template #header> UI 组件库演示 </template>
 
         <div class="button-demo">
           <Button variant="primary" size="large" @click="showAlert('Primary Button Clicked!')">
@@ -42,9 +40,7 @@ const showAlert = (message) => {
 
       <!-- 工具函数演示 -->
       <Card class="demo-card">
-        <template #header>
-          工具函数库演示
-        </template>
+        <template #header> 工具函数库演示 </template>
 
         <div class="utils-demo">
           <p><strong>原始字符串:</strong> {{ demoString }}</p>
@@ -57,9 +53,7 @@ const showAlert = (message) => {
 
       <!-- Monorepo 信息 -->
       <Card class="demo-card">
-        <template #header>
-          Monorepo 结构信息
-        </template>
+        <template #header> Monorepo 结构信息 </template>
 
         <div class="monorepo-info">
           <h4>项目结构:</h4>

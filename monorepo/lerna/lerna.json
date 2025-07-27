@@ -1,0 +1,21 @@
+{
+  "version": "0.0.0",
+  "npmClient": "pnpm",
+  "packages": [
+    "apps/*",
+    "packages/*",
+    "tools/*"
+  ],
+  "command": {
+    "bootstrap": {
+      "npmClient": "pnpm",
+      "npmClientArgs": [
+        "--no-frozen-lockfile"
+      ]
+    },
+    "publish": {
+      "conventionalCommits": true,
+      "message": "chore(release): publish"
+    }
+  }
+}

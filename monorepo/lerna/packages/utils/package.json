@@ -1,0 +1,11 @@
+{
+  "name": "@monorepo/utils",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./string": "./string.js",
+    "./date": "./date.js"
+  }
+}

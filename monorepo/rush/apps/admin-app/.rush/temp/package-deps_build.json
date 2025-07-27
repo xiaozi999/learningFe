@@ -1,6 +1,7 @@
 {
   "files": {
-    "monorepo/rush/apps/admin-app/.rush/temp/chunked-rush-logs/admin-app.build.chunks.jsonl": "df894306b3150ff6f2e36b7313a856ba479a162a",
+    "monorepo/rush/apps/admin-app/.rush/temp/chunked-rush-logs/admin-app.build.chunks.jsonl": "9ece8cd38a99212d48b86b7b6e3d77f61c3992aa",
+    "monorepo/rush/apps/admin-app/.rush/temp/package-deps_build.json": "dfcdea4e9f4a56611ac4a13753e7e94be6909cd2",
     "monorepo/rush/apps/admin-app/.rush/temp/shrinkwrap-deps.json": "5e7730678595a32fa4bd7f2edacef6bc69a3bc59",
     "monorepo/rush/apps/admin-app/eslint.config.js": "7807d8b33d25d86a60b25349e940aa9ae59c3d2e",
     "monorepo/rush/apps/admin-app/index.html": "b19040a0e68e0bffcc502662b32b2aa2eb08c055",

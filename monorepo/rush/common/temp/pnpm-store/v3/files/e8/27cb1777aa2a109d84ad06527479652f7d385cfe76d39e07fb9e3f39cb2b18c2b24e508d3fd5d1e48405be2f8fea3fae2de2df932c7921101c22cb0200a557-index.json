@@ -1,1 +1,24 @@
-{"name":"@rollup/rollup-darwin-arm64","version":"4.45.3","files":{"package.json":{"checkedAt":1753587836473,"integrity":"sha512-9f/enppWARzY9JA165icZ1nx9Zxq6pmCUdl8LDE3DALtowQOKIhTgKOYOfN4FiStlI5fEZpBrivzuHGrU+GXLg==","mode":420,"size":388},"README.md":{"checkedAt":1753587836473,"integrity":"sha512-5LDhkzVLXNxV/AU+tUhEKd5C6vj7afZod6mOW8e5a53mlkNoTHELF4CQrDqKCpDCCk4UfcKz9asFu0hYUKrL/g==","mode":420,"size":90},"rollup.darwin-arm64.node":{"checkedAt":1753587836476,"integrity":"sha512-VJfRh5hA6pBkqMjvSP7VmS3xatvh3OqjCZNY9KrocVoJiXxZglRL1DgcdBZtOsWAa1DFkCDgyvGY22L2w6WfQA==","mode":420,"size":2624768}}}
+{
+  "name": "@rollup/rollup-darwin-arm64",
+  "version": "4.45.3",
+  "files": {
+    "package.json": {
+      "checkedAt": 1753587836473,
+      "integrity": "sha512-9f/enppWARzY9JA165icZ1nx9Zxq6pmCUdl8LDE3DALtowQOKIhTgKOYOfN4FiStlI5fEZpBrivzuHGrU+GXLg==",
+      "mode": 420,
+      "size": 388
+    },
+    "README.md": {
+      "checkedAt": 1753587836473,
+      "integrity": "sha512-5LDhkzVLXNxV/AU+tUhEKd5C6vj7afZod6mOW8e5a53mlkNoTHELF4CQrDqKCpDCCk4UfcKz9asFu0hYUKrL/g==",
+      "mode": 420,
+      "size": 90
+    },
+    "rollup.darwin-arm64.node": {
+      "checkedAt": 1753587836476,
+      "integrity": "sha512-VJfRh5hA6pBkqMjvSP7VmS3xatvh3OqjCZNY9KrocVoJiXxZglRL1DgcdBZtOsWAa1DFkCDgyvGY22L2w6WfQA==",
+      "mode": 420,
+      "size": 2624768
+    }
+  }
+}

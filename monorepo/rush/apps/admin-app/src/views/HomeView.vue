@@ -8,7 +8,7 @@ const randomStr = randomString(10)
 const currentDate = formatDate(new Date(), 'YYYY-MM-DD HH:mm:ss')
 const relativeTime = getRelativeTime(Date.now() - 7200000) // 2小时前
 
-const showAlert = (message) => {
+const showAlert = message => {
   alert(message)
 }
 </script>
@@ -20,9 +20,7 @@ const showAlert = (message) => {
       <p>这是后台管理项目，演示 monorepo 多项目结构和包复用。</p>
 
       <Card class="demo-card">
-        <template #header>
-          UI 组件库演示
-        </template>
+        <template #header> UI 组件库演示 </template>
         <div class="button-demo">
           <Button variant="primary" size="large" @click="showAlert('Admin Primary!')">
             管理主按钮
@@ -34,9 +32,7 @@ const showAlert = (message) => {
       </Card>
 
       <Card class="demo-card">
-        <template #header>
-          工具函数库演示
-        </template>
+        <template #header> 工具函数库演示 </template>
         <div class="utils-demo">
           <p><strong>原始字符串:</strong> {{ demoString }}</p>
           <p><strong>首字母大写:</strong> {{ capitalizedString }}</p>
@@ -47,9 +43,7 @@ const showAlert = (message) => {
       </Card>
 
       <Card class="demo-card">
-        <template #header>
-          Monorepo 结构信息
-        </template>
+        <template #header> Monorepo 结构信息 </template>
         <div class="monorepo-info">
           <h4>项目结构:</h4>
           <ul>

@@ -9,12 +9,12 @@ defineProps({
   variant: {
     type: String,
     default: 'primary',
-    validator: (value) => ['primary', 'secondary', 'danger'].includes(value)
+    validator: value => ['primary', 'secondary', 'danger'].includes(value)
   },
   size: {
     type: String,
     default: 'medium',
-    validator: (value) => ['small', 'medium', 'large'].includes(value)
+    validator: value => ['small', 'medium', 'large'].includes(value)
   }
 })
 

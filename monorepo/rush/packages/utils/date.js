@@ -4,8 +4,8 @@
 
 /**
  * 格式化日期
- * @param {Date|string|number} date 
- * @param {string} format 
+ * @param {Date|string|number} date
+ * @param {string} format
  * @returns {string}
  */
 export function formatDate(date, format = 'YYYY-MM-DD') {
@@ -30,7 +30,7 @@ export function formatDate(date, format = 'YYYY-MM-DD') {
 
 /**
  * 获取相对时间
- * @param {Date|string|number} date 
+ * @param {Date|string|number} date
  * @returns {string}
  */
 export function getRelativeTime(date) {
@@ -51,7 +51,7 @@ export function getRelativeTime(date) {
 
 /**
  * 检查是否为今天
- * @param {Date|string|number} date 
+ * @param {Date|string|number} date
  * @returns {boolean}
  */
 export function isToday(date) {
@@ -62,7 +62,7 @@ export function isToday(date) {
 
 /**
  * 获取日期范围
- * @param {number} days 
+ * @param {number} days
  * @returns {Array}
  */
 export function getDateRange(days = 7) {
@@ -76,4 +76,4 @@ export function getDateRange(days = 7) {
   }
 
   return dates
-} 
+}

@@ -1,0 +1,42 @@
+{
+  "name": "monorepo-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "lerna run dev --stream",
+    "build": "lerna run build --stream",
+    "preview": "lerna run preview --stream",
+    "lint": "lerna run lint --stream",
+    "format": "lerna run format --stream",
+    "clean": "lerna clean && rm -rf node_modules",
+    "install:all": "lerna bootstrap",
+    "build:all": "lerna run build --stream",
+    "dev:all": "lerna run dev --parallel --stream",
+    "test:all": "lerna run test --stream",
+    "publish": "lerna publish",
+    "version": "lerna version",
+    "changed": "lerna changed",
+    "diff": "lerna diff",
+    "list": "lerna list"
+  },
+  "dependencies": {
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "@vue/eslint-config-prettier": "^10.2.0",
+    "eslint": "^9.29.0",
+    "eslint-plugin-vue": "~10.2.0",
+    "globals": "^16.2.0",
+    "lerna": "^8.2.3",
+    "prettier": "3.5.3",
+    "vite": "^5.0.0",
+    "vite-plugin-vue-devtools": "^7.7.7"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}

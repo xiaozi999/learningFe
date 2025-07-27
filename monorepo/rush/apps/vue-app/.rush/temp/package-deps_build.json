@@ -1,6 +1,7 @@
 {
   "files": {
-    "monorepo/rush/apps/vue-app/.rush/temp/chunked-rush-logs/vue-app.build.chunks.jsonl": "90138aefb2d07d55b30059f1aebd9908e70c4acc",
+    "monorepo/rush/apps/vue-app/.rush/temp/chunked-rush-logs/vue-app.build.chunks.jsonl": "04ea77dbdc25ded5a74f80ed4c90c9f2e2ce6b7a",
+    "monorepo/rush/apps/vue-app/.rush/temp/package-deps_build.json": "3583263ebbc8a9a8afa5af1302469a2591d441c0",
     "monorepo/rush/apps/vue-app/.rush/temp/shrinkwrap-deps.json": "d6c7bc6d55d0c9ba424833b8fb78de575243c99a",
     "monorepo/rush/apps/vue-app/eslint.config.js": "7807d8b33d25d86a60b25349e940aa9ae59c3d2e",
     "monorepo/rush/apps/vue-app/index.html": "b19040a0e68e0bffcc502662b32b2aa2eb08c055",
