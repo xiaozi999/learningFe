@@ -1,0 +1,36 @@
+{
+  "name": "monorepo-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter=vue-app dev",
+    "build": "pnpm --filter=vue-app build",
+    "preview": "pnpm --filter=vue-app preview",
+    "lint": "eslint . --fix",
+    "format": "prettier --write .",
+    "clean": "pnpm -r exec rm -rf node_modules && rm -rf node_modules",
+    "install:all": "pnpm install",
+    "build:all": "pnpm -r build",
+    "dev:all": "pnpm -r --parallel dev",
+    "test:all": "pnpm -r test"
+  },
+  "dependencies": {
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "@vue/eslint-config-prettier": "^10.2.0",
+    "eslint": "^9.29.0",
+    "eslint-plugin-vue": "~10.2.0",
+    "globals": "^16.2.0",
+    "prettier": "3.5.3",
+    "vite": "^5.0.0",
+    "vite-plugin-vue-devtools": "^7.7.7"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}

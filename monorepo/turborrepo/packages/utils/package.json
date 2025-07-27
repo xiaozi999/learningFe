@@ -1,0 +1,17 @@
+{
+  "name": "@monorepo/utils",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./string": "./string.js",
+    "./date": "./date.js"
+  },
+  "scripts": {
+    "build": "echo 'Utils package build completed'",
+    "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path ../../.eslintignore",
+    "format": "prettier --write .",
+    "clean": "echo 'Utils package clean completed'"
+  }
+}
