@@ -1,0 +1,20 @@
+{
+  "allPreferredVersions": {
+    "@monorepo/ui": "workspace:*",
+    "@monorepo/utils": "workspace:*",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vite": "^5.0.0",
+    "vite-plugin-vue-devtools": "^7.7.7"
+  },
+  "allowedAlternativeVersions": {},
+  "workspaceVersions": {
+    "@monorepo/ui": "1.0.0",
+    "@monorepo/utils": "1.0.0",
+    "admin-app": "1.0.0",
+    "vue-app": "1.0.0"
+  },
+  "semverPath": "/Users/pengzhibo/.nvm/versions/node/v20.10.0/lib/node_modules/@microsoft/rush/node_modules/semver/index.js",
+  "userPnpmfilePath": "/Users/pengzhibo/我不爱学习👌/monorepo/rush/common/config/rush/.pnpmfile.cjs"
+}

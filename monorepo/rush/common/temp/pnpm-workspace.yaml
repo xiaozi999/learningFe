@@ -1,0 +1,5 @@
+packages:
+  - ../../apps/admin-app
+  - ../../apps/vue-app
+  - ../../packages/ui
+  - ../../packages/utils

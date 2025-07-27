@@ -1,0 +1,31 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: false
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  ../../apps/admin-app:
+    dependencies:
+      '@monorepo/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
+      '@monorepo/utils':
+        specifier: workspace:*
+        version: link:../../packages/utils
+
+  ../../apps/vue-app:
+    dependencies:
+      '@monorepo/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
+      '@monorepo/utils':
+        specifier: workspace:*
+        version: link:../../packages/utils
+
+  ../../packages/ui: {}
+
+  ../../packages/utils: {}

@@ -1,0 +1,11 @@
+{
+  "node": "20.10.0",
+  "packageManager": "pnpm",
+  "packageManagerVersion": "8.15.8",
+  "rushJsonFolder": "/Users/pengzhibo/我不爱学习👌/monorepo/rush",
+  "ignoreScripts": false,
+  "pnpmSync": "0.3.2",
+  "npmrcHash": "51603e861d825cfc6e477630d4757bd103059b78",
+  "storePath": "/Users/pengzhibo/我不爱学习👌/monorepo/rush/common/temp/pnpm-store",
+  "workspaces": true
+}
