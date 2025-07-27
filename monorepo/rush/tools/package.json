@@ -1,0 +1,18 @@
+{
+  "name": "@monorepo/tools",
+  "version": "1.0.0",
+  "description": "Rush Monorepo 工具脚本",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js build",
+    "dev": "node scripts/dev.js start",
+    "clean": "node scripts/build.js clean",
+    "update": "node scripts/build.js update",
+    "check": "node scripts/build.js check",
+    "list": "node scripts/build.js list",
+    "test": "node scripts/test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

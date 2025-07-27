@@ -1,0 +1,25 @@
+{
+  "name": "rush-monorepo",
+  "version": "1.0.0",
+  "description": "Rush Monorepo with Vue.js applications",
+  "private": true,
+  "scripts": {
+    "build": "rush build",
+    "dev": "rush build --to-except @monorepo/ui @monorepo/utils",
+    "clean": "rush purge",
+    "update": "rush update",
+    "check": "rush check",
+    "list": "rush list"
+  },
+  "devDependencies": {
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1",
+    "vite": "^5.0.0",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vite-plugin-vue-devtools": "^7.7.7"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "rush": ">=5.0.0"
+  }
+}
