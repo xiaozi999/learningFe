@@ -1,0 +1,13 @@
+{
+  "name": "@monorepo/ui",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./components/*": "./components/*.vue"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.17"
+  }
+}
