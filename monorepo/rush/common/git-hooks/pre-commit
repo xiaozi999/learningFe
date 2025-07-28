@@ -6,4 +6,7 @@
 # Invoke the "rush prettier" custom command to reformat files whenever they
 # are committed. The command is defined in common/config/rush/command-line.json
 # and uses the "rush-prettier" autoinstaller.
-node common/scripts/install-run-rush.js prettier || exit $?
+
+# Use a more reliable approach to avoid Node.js module loading issues
+cd "$(dirname "$0")/.." || exit 1
+rush prettier || exit $?
