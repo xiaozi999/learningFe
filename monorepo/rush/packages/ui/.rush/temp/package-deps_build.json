@@ -1,12 +1,12 @@
 {
   "files": {
     "monorepo/rush/packages/ui/.rush/temp/chunked-rush-logs/ui.build.chunks.jsonl": "f005d6357012d5628db472312daf8b6c0e9073cc",
-    "monorepo/rush/packages/ui/.rush/temp/package-deps_build.json": "8b9e720e773c693ad63385d7deef6684a5461009",
+    "monorepo/rush/packages/ui/.rush/temp/package-deps_build.json": "09ee91b9e560a7c830cc0c7a5fb8d37858d83699",
     "monorepo/rush/packages/ui/.rush/temp/shrinkwrap-deps.json": "ecd836e632e01e23ca53e0940376e6793fbab144",
-    "monorepo/rush/packages/ui/components/Button.vue": "2bac23b034520adbb798fff529ba4e7fe59761c4",
-    "monorepo/rush/packages/ui/components/Card.vue": "2014d9b50fdb401de4f7eab3108325c73fb6609f",
-    "monorepo/rush/packages/ui/index.js": "d65e52778fd11d655e4009e9b9dee1b2642c00cc",
-    "monorepo/rush/packages/ui/package.json": "67bdbfe040ff72e43a05e62999518e0778fea61c"
+    "monorepo/rush/packages/ui/components/Button.vue": "3f994065221d04a18939eb2fa54e5294fa481560",
+    "monorepo/rush/packages/ui/components/Card.vue": "59b5400e92e0e8dac6b2b182455df8ca1767178a",
+    "monorepo/rush/packages/ui/index.js": "520aa3875355b5d8c6f6d1f1405d4c7e3154fd9d",
+    "monorepo/rush/packages/ui/package.json": "119ee29860105ca51e25cac5fff9c09981072b82"
   },
   "arguments": "echo 'UI package build completed' "
 }

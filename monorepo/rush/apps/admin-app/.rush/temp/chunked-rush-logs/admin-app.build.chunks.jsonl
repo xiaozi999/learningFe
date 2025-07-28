@@ -4,7 +4,7 @@
 {"kind":"O","text":"✓ 37 modules transformed.\n"}
 {"kind":"O","text":"rendering chunks...\n"}
 {"kind":"O","text":"computing gzip size...\n"}
-{"kind":"O","text":"dist/index.html                  0.43 kB │ gzip:  0.29 kB\n"}
-{"kind":"O","text":"dist/assets/index-c-IMgq0l.css   3.42 kB │ gzip:  1.20 kB\n"}
-{"kind":"O","text":"dist/assets/index-BZB0h4Qn.js   87.35 kB │ gzip: 34.87 kB\n"}
-{"kind":"O","text":"✓ built in 336ms\n"}
+{"kind":"O","text":"dist/index.html                  0.43 kB │ gzip:  0.28 kB\n"}
+{"kind":"O","text":"dist/assets/index-BnYlaFNX.css   3.42 kB │ gzip:  1.19 kB\n"}
+{"kind":"O","text":"dist/assets/index-ZYYAvnJD.js   87.35 kB │ gzip: 34.86 kB\n"}
+{"kind":"O","text":"✓ built in 3.25s\n"}
