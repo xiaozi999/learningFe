@@ -1,0 +1,54 @@
+{
+  "run": {
+    "command": "cli run build --stream",
+    "startTime": "2025-07-28T03:36:47.074Z",
+    "endTime": "2025-07-28T03:36:49.016Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@monorepo/header:build",
+      "target": "build",
+      "projectName": "@monorepo/header",
+      "hash": "18347325192085682153",
+      "startTime": "2025-07-28T03:36:47.121Z",
+      "endTime": "2025-07-28T03:36:47.562Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@monorepo/footer:build",
+      "target": "build",
+      "projectName": "@monorepo/footer",
+      "hash": "17003008021490717672",
+      "startTime": "2025-07-28T03:36:47.121Z",
+      "endTime": "2025-07-28T03:36:47.562Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@monorepo/remix-app:build",
+      "target": "build",
+      "projectName": "@monorepo/remix-app",
+      "hash": "11970799245191673270",
+      "startTime": "2025-07-28T03:36:47.564Z",
+      "endTime": "2025-07-28T03:36:49.005Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@monorepo/admin-app:build",
+      "target": "build",
+      "projectName": "@monorepo/admin-app",
+      "hash": "11316352808583285142",
+      "startTime": "2025-07-28T03:36:47.564Z",
+      "endTime": "2025-07-28T03:36:49.005Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

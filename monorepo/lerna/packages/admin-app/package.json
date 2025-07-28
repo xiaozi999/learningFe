@@ -1,5 +1,5 @@
 {
-  "name": "admin-app",
+  "name": "@monorepo/admin-app",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -11,7 +11,9 @@
     "format": "npx prettier --write ."
   },
   "dependencies": {
-    "@monorepo/ui": "workspace:*",
-    "@monorepo/utils": "workspace:*"
+    "@monorepo/ui": "^1.0.0",
+    "@monorepo/utils": "^1.0.0",
+    "@monorepo/header": "^1.0.0",
+    "@monorepo/footer": "^1.0.0"
   }
 }

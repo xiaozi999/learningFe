@@ -1,0 +1,233 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.8.2",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".gitattributes",
+        "hash": "8203086421481795821"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "3612376340414299430"
+      },
+      {
+        "file": ".prettierrc.json",
+        "hash": "328562373892381078"
+      },
+      {
+        "file": "tools/scripts/build.js",
+        "hash": "10274732558691000633"
+      },
+      {
+        "file": "package.json",
+        "hash": "12896949617710881964"
+      },
+      {
+        "file": "nx.json",
+        "hash": "2449453735417155043"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "875445509004788231"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "13524112160863732742"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "12656026093156892460"
+      },
+      {
+        "file": "README.md",
+        "hash": "789491628846338984"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "16294968795953148333"
+      }
+    ],
+    "projectFileMap": {
+      "@monorepo/admin-app": [
+        {
+          "file": "packages/admin-app/eslint.config.js",
+          "hash": "7040201614083346555"
+        },
+        {
+          "file": "packages/admin-app/index.html",
+          "hash": "6929073520752071807"
+        },
+        {
+          "file": "packages/admin-app/jsconfig.json",
+          "hash": "1743110219249333965"
+        },
+        {
+          "file": "packages/admin-app/package.json",
+          "hash": "2242901629813067368",
+          "deps": ["@monorepo/ui", "@monorepo/utils", "@monorepo/header", "@monorepo/footer"]
+        },
+        {
+          "file": "packages/admin-app/public/favicon.ico",
+          "hash": "18282137866655320110"
+        },
+        {
+          "file": "packages/admin-app/src/App.vue",
+          "hash": "13528285759597250920"
+        },
+        {
+          "file": "packages/admin-app/src/assets/base.css",
+          "hash": "9321010002578688550"
+        },
+        {
+          "file": "packages/admin-app/src/assets/main.css",
+          "hash": "4965547358129182663"
+        },
+        {
+          "file": "packages/admin-app/src/main.js",
+          "hash": "301848074593078524"
+        },
+        {
+          "file": "packages/admin-app/src/router/index.js",
+          "hash": "16308783795913661180"
+        },
+        {
+          "file": "packages/admin-app/src/views/HomeView.vue",
+          "hash": "7544975445301783504"
+        },
+        {
+          "file": "packages/admin-app/vite.config.js",
+          "hash": "255886313052455498"
+        }
+      ],
+      "@monorepo/header": [
+        {
+          "file": "packages/header/components/Header.vue",
+          "hash": "2699240877809321686"
+        },
+        {
+          "file": "packages/header/components/Navigation.vue",
+          "hash": "4080552402648397323"
+        },
+        {
+          "file": "packages/header/index.js",
+          "hash": "16883481560953351887"
+        },
+        {
+          "file": "packages/header/package.json",
+          "hash": "13821417770319313359",
+          "deps": ["npm:vue"]
+        }
+      ],
+      "@monorepo/remix-app": [
+        {
+          "file": "packages/remix-app/eslint.config.js",
+          "hash": "7040201614083346555"
+        },
+        {
+          "file": "packages/remix-app/index.html",
+          "hash": "6929073520752071807"
+        },
+        {
+          "file": "packages/remix-app/jsconfig.json",
+          "hash": "1743110219249333965"
+        },
+        {
+          "file": "packages/remix-app/package.json",
+          "hash": "16052064104143799239",
+          "deps": ["@monorepo/ui", "@monorepo/utils", "@monorepo/header", "@monorepo/footer"]
+        },
+        {
+          "file": "packages/remix-app/public/favicon.ico",
+          "hash": "18282137866655320110"
+        },
+        {
+          "file": "packages/remix-app/src/App.vue",
+          "hash": "5429665118957808784"
+        },
+        {
+          "file": "packages/remix-app/src/assets/base.css",
+          "hash": "9321010002578688550"
+        },
+        {
+          "file": "packages/remix-app/src/assets/main.css",
+          "hash": "4965547358129182663"
+        },
+        {
+          "file": "packages/remix-app/src/main.js",
+          "hash": "301848074593078524"
+        },
+        {
+          "file": "packages/remix-app/src/router/index.js",
+          "hash": "16308783795913661180"
+        },
+        {
+          "file": "packages/remix-app/src/views/HomeView.vue",
+          "hash": "5995940901539204305"
+        },
+        {
+          "file": "packages/remix-app/vite.config.js",
+          "hash": "255886313052455498"
+        }
+      ],
+      "@monorepo/ui": [
+        {
+          "file": "packages/ui/components/Button.vue",
+          "hash": "6294021842870259765"
+        },
+        {
+          "file": "packages/ui/components/Card.vue",
+          "hash": "3242144035038529271"
+        },
+        {
+          "file": "packages/ui/index.js",
+          "hash": "10259808002936726002"
+        },
+        {
+          "file": "packages/ui/package.json",
+          "hash": "16505864855726581317",
+          "deps": ["npm:vue"]
+        }
+      ],
+      "@monorepo/footer": [
+        {
+          "file": "packages/footer/components/Footer.vue",
+          "hash": "7487011717244978794"
+        },
+        {
+          "file": "packages/footer/components/FooterLinks.vue",
+          "hash": "2354525749266675052"
+        },
+        {
+          "file": "packages/footer/index.js",
+          "hash": "5224310112724016054"
+        },
+        {
+          "file": "packages/footer/package.json",
+          "hash": "15915478001282007963",
+          "deps": ["npm:vue"]
+        }
+      ],
+      "@monorepo/utils": [
+        {
+          "file": "packages/utils/date.js",
+          "hash": "2150314312444636370"
+        },
+        {
+          "file": "packages/utils/index.js",
+          "hash": "12905270937323231940"
+        },
+        {
+          "file": "packages/utils/package.json",
+          "hash": "16739674777005365859"
+        },
+        {
+          "file": "packages/utils/string.js",
+          "hash": "5169773680020936606"
+        }
+      ]
+    }
+  }
+}

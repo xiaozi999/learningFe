@@ -1,17 +1,11 @@
 {
   "version": "0.0.0",
   "npmClient": "pnpm",
-  "packages": [
-    "apps/*",
-    "packages/*",
-    "tools/*"
-  ],
+  "packages": ["packages/*"],
   "command": {
     "bootstrap": {
       "npmClient": "pnpm",
-      "npmClientArgs": [
-        "--no-frozen-lockfile"
-      ]
+      "npmClientArgs": ["--no-frozen-lockfile"]
     },
     "publish": {
       "conventionalCommits": true,
