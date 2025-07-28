@@ -10,44 +10,44 @@
         "hash": "8203086421481795821"
       },
       {
-        "file": ".vscode/extensions.json",
-        "hash": "3612376340414299430"
-      },
-      {
-        "file": ".prettierrc.json",
-        "hash": "328562373892381078"
-      },
-      {
-        "file": "tools/scripts/build.js",
-        "hash": "10274732558691000633"
-      },
-      {
         "file": "package.json",
         "hash": "12896949617710881964"
-      },
-      {
-        "file": "nx.json",
-        "hash": "2449453735417155043"
-      },
-      {
-        "file": "lerna.json",
-        "hash": "875445509004788231"
       },
       {
         "file": ".gitignore",
         "hash": "13524112160863732742"
       },
       {
-        "file": ".editorconfig",
-        "hash": "12656026093156892460"
+        "file": ".vscode/extensions.json",
+        "hash": "3612376340414299430"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "15413181723402904575"
+      },
+      {
+        "file": ".prettierrc.json",
+        "hash": "328562373892381078"
       },
       {
         "file": "README.md",
         "hash": "789491628846338984"
       },
       {
+        "file": "tools/scripts/build.js",
+        "hash": "10274732558691000633"
+      },
+      {
         "file": "pnpm-lock.yaml",
         "hash": "16294968795953148333"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "12656026093156892460"
+      },
+      {
+        "file": "nx.json",
+        "hash": "247531441578817218"
       }
     ],
     "projectFileMap": {
@@ -66,7 +66,7 @@
         },
         {
           "file": "packages/admin-app/package.json",
-          "hash": "2242901629813067368",
+          "hash": "13414528948095456095",
           "deps": ["@monorepo/ui", "@monorepo/utils", "@monorepo/header", "@monorepo/footer"]
         },
         {
@@ -75,7 +75,7 @@
         },
         {
           "file": "packages/admin-app/src/App.vue",
-          "hash": "13528285759597250920"
+          "hash": "6335365758155978172"
         },
         {
           "file": "packages/admin-app/src/assets/base.css",
@@ -99,25 +99,25 @@
         },
         {
           "file": "packages/admin-app/vite.config.js",
-          "hash": "255886313052455498"
+          "hash": "14256203083104679485"
         }
       ],
       "@monorepo/header": [
         {
           "file": "packages/header/components/Header.vue",
-          "hash": "2699240877809321686"
+          "hash": "14294584191827727017"
         },
         {
           "file": "packages/header/components/Navigation.vue",
-          "hash": "4080552402648397323"
+          "hash": "16728320972915875321"
         },
         {
           "file": "packages/header/index.js",
-          "hash": "16883481560953351887"
+          "hash": "7354643664762802546"
         },
         {
           "file": "packages/header/package.json",
-          "hash": "13821417770319313359",
+          "hash": "12757432494855506385",
           "deps": ["npm:vue"]
         }
       ],
@@ -136,7 +136,7 @@
         },
         {
           "file": "packages/remix-app/package.json",
-          "hash": "16052064104143799239",
+          "hash": "11162160583709693333",
           "deps": ["@monorepo/ui", "@monorepo/utils", "@monorepo/header", "@monorepo/footer"]
         },
         {
@@ -145,7 +145,7 @@
         },
         {
           "file": "packages/remix-app/src/App.vue",
-          "hash": "5429665118957808784"
+          "hash": "7580353678319301800"
         },
         {
           "file": "packages/remix-app/src/assets/base.css",
@@ -169,7 +169,7 @@
         },
         {
           "file": "packages/remix-app/vite.config.js",
-          "hash": "255886313052455498"
+          "hash": "14256203083104679485"
         }
       ],
       "@monorepo/ui": [
@@ -194,19 +194,19 @@
       "@monorepo/footer": [
         {
           "file": "packages/footer/components/Footer.vue",
-          "hash": "7487011717244978794"
+          "hash": "6389322832057850936"
         },
         {
           "file": "packages/footer/components/FooterLinks.vue",
-          "hash": "2354525749266675052"
+          "hash": "4383525499922327858"
         },
         {
           "file": "packages/footer/index.js",
-          "hash": "5224310112724016054"
+          "hash": "5372844372484634902"
         },
         {
           "file": "packages/footer/package.json",
-          "hash": "15915478001282007963",
+          "hash": "7996331013263146868",
           "deps": ["npm:vue"]
         }
       ],
